@@ -6,4 +6,3 @@ VERSION 0.2
 - Titulo y fotos respectivas al proyecto
 - Configuracion del GitHub
 
-VERSION 0.3
