@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(50, 57, 65);
+}
+
+#botonmati{
+    cursor:pointer;
+    float: left;
+    
+
+}
+
+#botonmarian{
+    cursor:pointer;
+    float: right;
+    
+}
+
+
+h1{
+    color: rgb(196, 195, 146);
+    text-align: center;
+    font-size: 75px;
+    font-family: monospace;
+    float: auto;
+    border-color: red;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.iniciodepagina{
+    display: flex;
+    align-items:center;
+    gap: 17%;
+}
+
+
