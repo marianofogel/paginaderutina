@@ -5,4 +5,3 @@ VERSION O.1
 VERSION 0.2
 - Titulo y fotos respectivas al proyecto
 - Configuracion del GitHub
-asdasd
