@@ -1,4 +1,4 @@
-VERSION O.1
+VERSION 0.1
 - Creacion del proyecto
 - Creados los index correspondientes
 
