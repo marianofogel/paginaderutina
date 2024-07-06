@@ -44,12 +44,12 @@ botonmati.addEventListener("click", () => {
     }
 })
 
-/*
+
 
 let fechaActual = new Date();
 console.log(fechaActual)
 
-let fechaDeInicio = new Date(2024, 5, 20)
+let fechaDeInicio = new Date(2024, 5, 24)
 console.log(fechaDeInicio)
 
 let numeroDeDiasTranscurridos = fechaActual - fechaDeInicio
@@ -60,9 +60,11 @@ let fechaEnDias = numeroDeDiasTranscurridos / (1000 * 60 * 60 * 24)
 let fechaRedondeada = Math.trunc(fechaEnDias);
 console.log(fechaRedondeada)
 
+
 let final = 14 //DIAS QUE VAMOS
 let diasSinFindes = final;
 
+/*
 for (let i = 1; i < final; i++) {
     if ( i % 7 === 0){
         let diasSinFindes = final - 2;
@@ -71,9 +73,9 @@ for (let i = 1; i < final; i++) {
     console.log(diasSinFindes)
 
 }
+*/
 
-
-
+/*
 for (let i = 1; i <= final; i++) {
     // Verifica si el día es un sábado (múltiplo de 7) o un domingo (el día después de un múltiplo de 7)
     if (i % 7 === 0 || (i - 1) % 7 === 0) {
@@ -82,7 +84,6 @@ for (let i = 1; i <= final; i++) {
 }
 
 console.log(diasSinFindes);
-
 */
 
 /*
