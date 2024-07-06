@@ -35,4 +35,13 @@ h1{
     gap: 17%;
 }
 
+#btn{
+    cursor:pointer;
+    background-color: rgb(159, 202, 202);
+    transition: background-color 0.5s ease;
 
+}
+
+#btn:hover{
+    background-color: rgb(255, 255, 255);
+}
