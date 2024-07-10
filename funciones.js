@@ -8,6 +8,8 @@ function cuantosDiasVamos() {
     let fechaEnDias = numeroDeDiasTranscurridos / (1000 * 60 * 60 * 24)
     let fechaRedondeada = Math.trunc(fechaEnDias);
     console.log(fechaRedondeada)
+
+
 }
 
 // ? PUEDE QUE HAYA UN PROBLEMA CON EL DOM (SEGUN CHATGPT)
@@ -72,8 +74,3 @@ function crearTabla() {
 crearTabla();
 });
 
-
-/* 
-
-
-*/
