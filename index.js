@@ -49,7 +49,7 @@ botonmati.addEventListener("click", () => {
 let fechaActual = new Date();
 console.log(fechaActual)
 
-let fechaDeInicio = new Date(2024, 5, 14)
+let fechaDeInicio = new Date(2024, 5, 24)
 console.log(fechaDeInicio)
 
 let numeroDeDiasTranscurridos = fechaActual - fechaDeInicio
@@ -64,6 +64,11 @@ const semanas = Math.trunc(fechaRedondeada / 7);
 const findes = semanas * 2
 const diasSinFindes = fechaRedondeada - findes;
 console.log(diasSinFindes);
+
+let elementoConElNumero = document.getElementById('diasEstudiando');
+elementoConElNumero.textContent = diasSinFindes
+
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -125,3 +130,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     crearTabla();
 });
+
